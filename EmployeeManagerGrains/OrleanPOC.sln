@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainInterfaces", "GrainInterfaces\GrainInterfaces.csproj", "{DAA6CEB7-783E-4DFA-98C2-22F41C08EFAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainCollections", "GrainCollections\GrainCollections.csproj", "{226F6555-2394-4819-B62F-883F207D39F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{650780DD-C0E8-4629-B2A1-F88053AD25A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageProviders", "StorageProviders\StorageProviders.csproj", "{8C4306A9-FF96-4827-9704-503B74019C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{D9DFC76F-2B9B-4E5A-A63C-D16D52BF2CBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dell.Solution.SCS.Service", "Dell.Solution.SCS.Service\Dell.Solution.SCS.Service.csproj", "{1437955E-867B-4927-8B40-3BD522157CA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAA6CEB7-783E-4DFA-98C2-22F41C08EFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA6CEB7-783E-4DFA-98C2-22F41C08EFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA6CEB7-783E-4DFA-98C2-22F41C08EFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA6CEB7-783E-4DFA-98C2-22F41C08EFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226F6555-2394-4819-B62F-883F207D39F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226F6555-2394-4819-B62F-883F207D39F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226F6555-2394-4819-B62F-883F207D39F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226F6555-2394-4819-B62F-883F207D39F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650780DD-C0E8-4629-B2A1-F88053AD25A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650780DD-C0E8-4629-B2A1-F88053AD25A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650780DD-C0E8-4629-B2A1-F88053AD25A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650780DD-C0E8-4629-B2A1-F88053AD25A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4306A9-FF96-4827-9704-503B74019C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4306A9-FF96-4827-9704-503B74019C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4306A9-FF96-4827-9704-503B74019C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4306A9-FF96-4827-9704-503B74019C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9DFC76F-2B9B-4E5A-A63C-D16D52BF2CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DFC76F-2B9B-4E5A-A63C-D16D52BF2CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DFC76F-2B9B-4E5A-A63C-D16D52BF2CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DFC76F-2B9B-4E5A-A63C-D16D52BF2CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1437955E-867B-4927-8B40-3BD522157CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1437955E-867B-4927-8B40-3BD522157CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1437955E-867B-4927-8B40-3BD522157CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1437955E-867B-4927-8B40-3BD522157CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D09A721-4E53-43CD-9D15-2B9D0B6FCBE1}
+	EndGlobalSection
+EndGlobal

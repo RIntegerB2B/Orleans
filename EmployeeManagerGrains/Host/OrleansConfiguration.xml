@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OrleansConfiguration xmlns="urn:orleans">
+  <Globals>
+   
+    <StorageProviders>
+      <Provider Type="StorageProviders.FileStorageProvider"
+          Name="FileStore"
+          RootDirectory=".\Storage"/>
+    </StorageProviders>
+
+    <SeedNode Address="localhost" Port="11111" />
+  </Globals>
+  <Defaults>
+    <Networking Address="localhost" Port="11111" />
+    <ProxyingGateway Address="localhost" Port="30005" />
+  </Defaults>
+</OrleansConfiguration>
+
